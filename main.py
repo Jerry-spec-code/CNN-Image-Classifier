@@ -5,8 +5,6 @@ from torchvision import datasets, transforms
 
 from model import Model
 
-# Your working code here
-
 def main():
     device = get_device()
     train_set, test_set = get_datasets()
